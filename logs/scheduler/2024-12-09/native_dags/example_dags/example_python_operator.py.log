@@ -1,0 +1,112 @@
+[2024-12-09T18:36:32.198-0300] {processor.py:186} INFO - Started process (PID=114255) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:36:32.199-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:36:32.201-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.200-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:36:32.229-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.228-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:36:32.231-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:36:32.325-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.324-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_python_operator
+[2024-12-09T18:36:32.346-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.345-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2024-12-09T18:36:32.360-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.359-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2024-12-09T18:36:32.390-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.390-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_python_operator
+[2024-12-09T18:36:32.404-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.403-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_python_operator
+[2024-12-09T18:36:32.415-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.414-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_python_operator
+[2024-12-09T18:36:32.425-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.425-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_python_operator
+[2024-12-09T18:36:32.426-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.425-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:36:32.435-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.434-0300] {dag.py:3262} INFO - Creating ORM DAG for example_python_operator
+[2024-12-09T18:36:32.435-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:32.435-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:36:32.464-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.270 seconds
+[2024-12-09T18:43:25.172-0300] {processor.py:186} INFO - Started process (PID=116146) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:43:25.189-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:43:25.191-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:25.191-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:43:25.217-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:25.217-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:43:25.219-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:43:25.238-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:25.238-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:43:25.247-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:25.247-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:43:25.275-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.107 seconds
+[2024-12-09T18:46:38.386-0300] {processor.py:186} INFO - Started process (PID=116989) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:46:38.388-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:46:38.390-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:38.389-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:46:38.416-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:38.416-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:46:38.419-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:46:38.436-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:38.436-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:46:38.445-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:38.445-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:46:38.468-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.086 seconds
+[2024-12-09T18:49:35.576-0300] {processor.py:186} INFO - Started process (PID=117832) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:49:35.578-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:49:35.579-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.579-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:49:35.605-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.605-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:49:35.607-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:49:35.697-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.696-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2024-12-09T18:49:35.709-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.709-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2024-12-09T18:49:35.720-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.719-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_python_operator
+[2024-12-09T18:49:35.736-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.736-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_python_operator
+[2024-12-09T18:49:35.748-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.747-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_python_operator
+[2024-12-09T18:49:35.758-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.757-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_python_operator
+[2024-12-09T18:49:35.768-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.767-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_python_operator
+[2024-12-09T18:49:35.768-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.768-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:49:35.778-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.778-0300] {dag.py:3262} INFO - Creating ORM DAG for example_python_operator
+[2024-12-09T18:49:35.779-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:35.779-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:49:35.799-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.227 seconds
+[2024-12-09T18:50:44.137-0300] {processor.py:186} INFO - Started process (PID=118158) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:50:44.139-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:50:44.140-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:44.140-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:50:44.167-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:44.167-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:50:44.169-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:50:44.183-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:44.183-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:50:44.193-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:44.193-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:50:44.213-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.080 seconds
+[2024-12-09T18:51:55.235-0300] {processor.py:186} INFO - Started process (PID=118538) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:51:55.236-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:51:55.238-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:55.238-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:51:55.264-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:55.264-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:51:55.266-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:51:55.285-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:55.284-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:51:55.294-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:55.293-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:51:55.316-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.086 seconds
+[2024-12-09T18:52:55.529-0300] {processor.py:186} INFO - Started process (PID=118827) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:52:55.545-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:52:55.547-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:55.547-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:52:55.573-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:55.573-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:52:55.575-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:52:55.587-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:55.587-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:52:55.596-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:55.596-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:52:55.615-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.091 seconds
+[2024-12-09T18:53:54.617-0300] {processor.py:186} INFO - Started process (PID=119122) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:53:54.619-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:53:54.621-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:54.621-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:53:54.654-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:54.654-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:53:54.657-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:53:54.675-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:54.675-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:53:54.688-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:54.687-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:53:54.709-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.098 seconds
+[2024-12-09T18:54:28.375-0300] {processor.py:186} INFO - Started process (PID=119318) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:54:28.376-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:54:28.378-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:28.378-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:54:28.414-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:28.414-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:54:28.416-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:54:28.437-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:28.437-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:54:28.448-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:28.448-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:54:28.470-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.100 seconds
+[2024-12-09T18:55:28.560-0300] {processor.py:186} INFO - Started process (PID=119615) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:55:28.577-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:55:28.579-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:28.579-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:55:28.608-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:28.608-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:55:28.610-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:55:28.623-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:28.623-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:55:28.633-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:28.632-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:55:28.656-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.100 seconds
+[2024-12-09T18:56:31.055-0300] {processor.py:186} INFO - Started process (PID=119950) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:56:31.071-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:56:31.073-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:31.073-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:56:31.100-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:31.100-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:56:31.102-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:56:31.120-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:31.119-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:56:31.129-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:31.129-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:56:31.149-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.099 seconds
+[2024-12-09T18:57:46.865-0300] {processor.py:186} INFO - Started process (PID=120348) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:57:46.867-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-12-09T18:57:46.869-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:46.868-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:57:46.903-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:46.903-0300] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:57:46.905-0300] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-12-09T18:57:46.924-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:46.924-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:57:46.934-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:46.934-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-09T18:57:46.956-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.095 seconds

@@ -1,0 +1,57 @@
+[2024-12-09T18:50:06.256-0300] {processor.py:186} INFO - Started process (PID=117979) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:50:06.257-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-09T18:50:06.259-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.259-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:50:06.269-0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:50:06.367-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.367-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-12-09T18:50:06.379-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.379-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-12-09T18:50:06.390-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.390-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_complex
+[2024-12-09T18:50:06.406-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.406-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2024-12-09T18:50:06.416-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.416-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2024-12-09T18:50:06.427-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.426-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_complex
+[2024-12-09T18:50:06.437-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.437-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_complex
+[2024-12-09T18:50:06.438-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.438-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:50:06.450-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.450-0300] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2024-12-09T18:50:06.451-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:06.450-0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-09T18:50:06.473-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.222 seconds
+[2024-12-09T18:51:15.974-0300] {processor.py:186} INFO - Started process (PID=118314) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:51:15.975-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-09T18:51:15.977-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:15.977-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:51:15.987-0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:51:16.006-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:16.006-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:51:16.015-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:16.015-0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-09T18:51:16.037-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.068 seconds
+[2024-12-09T18:52:22.099-0300] {processor.py:186} INFO - Started process (PID=118668) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:52:22.100-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-09T18:52:22.103-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:22.102-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:52:22.113-0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:52:22.135-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:22.134-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:52:22.144-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:22.144-0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-09T18:52:22.168-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.074 seconds
+[2024-12-09T18:53:22.212-0300] {processor.py:186} INFO - Started process (PID=118963) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:53:22.214-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-09T18:53:22.215-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:22.215-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:53:22.225-0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:53:22.246-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:22.245-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:53:22.255-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:22.255-0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-09T18:53:22.276-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.069 seconds
+[2024-12-09T18:54:55.277-0300] {processor.py:186} INFO - Started process (PID=119446) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:54:55.278-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-09T18:54:55.280-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:55.280-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:54:55.291-0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:54:55.314-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:55.314-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:54:55.324-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:55.324-0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-09T18:54:55.347-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.075 seconds
+[2024-12-09T18:55:56.589-0300] {processor.py:186} INFO - Started process (PID=119751) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:55:56.590-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-09T18:55:56.592-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:56.592-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:55:56.603-0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:55:56.625-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:56.624-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:55:56.636-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:56.636-0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-09T18:55:56.660-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.075 seconds
+[2024-12-09T18:56:54.474-0300] {processor.py:186} INFO - Started process (PID=120068) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:56:54.476-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-09T18:56:54.478-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:54.477-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:56:54.488-0300] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-12-09T18:56:54.511-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:54.511-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:56:54.521-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:54.521-0300] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-09T18:56:54.545-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.077 seconds

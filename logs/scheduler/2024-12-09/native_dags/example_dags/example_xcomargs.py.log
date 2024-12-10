@@ -1,0 +1,152 @@
+[2024-12-09T18:36:29.531-0300] {processor.py:186} INFO - Started process (PID=114243) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:36:29.532-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:36:29.534-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.534-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:36:29.541-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:36:29.630-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.630-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2024-12-09T18:36:29.641-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.641-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2024-12-09T18:36:29.651-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.651-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2024-12-09T18:36:29.666-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.666-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2024-12-09T18:36:29.676-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.676-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2024-12-09T18:36:29.685-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.685-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2024-12-09T18:36:29.695-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.694-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2024-12-09T18:36:29.716-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.715-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2024-12-09T18:36:29.725-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.725-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2024-12-09T18:36:29.735-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.734-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2024-12-09T18:36:29.750-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.750-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2024-12-09T18:36:29.759-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.759-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2024-12-09T18:36:29.769-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.769-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2024-12-09T18:36:29.779-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.778-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2024-12-09T18:36:29.779-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.779-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:36:29.787-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.786-0300] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2024-12-09T18:36:29.787-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.787-0300] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2024-12-09T18:36:29.788-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.788-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:36:29.788-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:29.788-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:36:29.818-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.291 seconds
+[2024-12-09T18:43:05.407-0300] {processor.py:186} INFO - Started process (PID=116033) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:43:05.424-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:43:05.426-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:05.426-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:43:05.434-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:43:05.455-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:05.454-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:43:05.464-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:05.464-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:43:05.467-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:05.467-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:43:05.493-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.091 seconds
+[2024-12-09T18:43:21.747-0300] {processor.py:186} INFO - Started process (PID=116128) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:43:21.748-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:43:21.750-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:21.749-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:43:21.758-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:43:21.778-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:21.778-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:43:21.787-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:21.787-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:43:21.790-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:21.790-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:43:21.808-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.066 seconds
+[2024-12-09T18:45:59.177-0300] {processor.py:186} INFO - Started process (PID=116807) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:45:59.179-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:45:59.181-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:59.180-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:45:59.189-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:45:59.208-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:59.208-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:45:59.218-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:59.217-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:45:59.220-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:59.220-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:45:59.237-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.065 seconds
+[2024-12-09T18:46:34.964-0300] {processor.py:186} INFO - Started process (PID=116976) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:46:34.980-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:46:34.982-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:34.982-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:46:34.990-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:46:35.009-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:35.009-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:46:35.018-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:35.018-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:46:35.021-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:35.021-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:46:35.039-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.079 seconds
+[2024-12-09T18:49:32.185-0300] {processor.py:186} INFO - Started process (PID=117819) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:49:32.186-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:49:32.188-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.188-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:49:32.196-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:49:32.289-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.289-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2024-12-09T18:49:32.302-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.301-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2024-12-09T18:49:32.311-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.311-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2024-12-09T18:49:32.328-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.327-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2024-12-09T18:49:32.337-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.337-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2024-12-09T18:49:32.347-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.347-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2024-12-09T18:49:32.357-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.357-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2024-12-09T18:49:32.377-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.377-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2024-12-09T18:49:32.387-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.386-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2024-12-09T18:49:32.397-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.397-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2024-12-09T18:49:32.414-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.413-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2024-12-09T18:49:32.423-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.423-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2024-12-09T18:49:32.433-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.433-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2024-12-09T18:49:32.443-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.443-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2024-12-09T18:49:32.443-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.443-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:49:32.453-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.453-0300] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2024-12-09T18:49:32.454-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.454-0300] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2024-12-09T18:49:32.455-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.454-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:49:32.455-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:32.455-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:49:32.474-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.295 seconds
+[2024-12-09T18:50:40.716-0300] {processor.py:186} INFO - Started process (PID=118138) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:50:40.731-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:50:40.733-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:40.733-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:50:40.741-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:50:40.757-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:40.756-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:50:40.769-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:40.769-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:50:40.772-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:40.771-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:50:40.796-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.085 seconds
+[2024-12-09T18:51:52.713-0300] {processor.py:186} INFO - Started process (PID=118526) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:51:52.714-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:51:52.717-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:52.717-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:51:52.731-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:51:52.757-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:52.756-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:51:52.768-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:52.767-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:51:52.770-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:52.770-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:51:52.791-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.084 seconds
+[2024-12-09T18:52:52.012-0300] {processor.py:186} INFO - Started process (PID=118814) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:52:52.013-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:52:52.015-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:52.014-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:52:52.023-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:52:52.037-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:52.037-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:52:52.047-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:52.047-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:52:52.050-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:52.050-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:52:52.108-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.101 seconds
+[2024-12-09T18:53:51.183-0300] {processor.py:186} INFO - Started process (PID=119102) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:53:51.184-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:53:51.187-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:51.186-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:53:51.194-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:53:51.208-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:51.208-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:53:51.217-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:51.217-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:53:51.220-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:51.219-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:53:51.241-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.063 seconds
+[2024-12-09T18:54:25.954-0300] {processor.py:186} INFO - Started process (PID=119296) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:54:25.955-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:54:25.956-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:25.956-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:54:25.964-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:54:25.983-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:25.983-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:54:25.992-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:25.992-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:54:25.995-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:25.994-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:54:26.013-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.064 seconds
+[2024-12-09T18:55:25.146-0300] {processor.py:186} INFO - Started process (PID=119595) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:55:25.162-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:55:25.164-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:25.164-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:55:25.173-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:55:25.187-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:25.187-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:55:25.196-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:25.196-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:55:25.198-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:25.198-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:55:25.218-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.077 seconds
+[2024-12-09T18:56:26.458-0300] {processor.py:186} INFO - Started process (PID=119931) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:56:26.460-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:56:26.462-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:26.461-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:56:26.470-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:56:26.490-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:26.489-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:56:26.501-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:26.500-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:56:26.503-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:26.503-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:56:26.526-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.072 seconds
+[2024-12-09T18:57:22.669-0300] {processor.py:186} INFO - Started process (PID=120204) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:57:22.685-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:57:22.687-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:22.687-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:57:22.697-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:57:22.713-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:22.713-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:57:22.724-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:22.723-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:57:22.726-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:22.726-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:57:22.745-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.081 seconds
+[2024-12-09T18:57:44.130-0300] {processor.py:186} INFO - Started process (PID=120335) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:57:44.131-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-09T18:57:44.133-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:44.133-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:57:44.142-0300] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-09T18:57:44.162-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:44.162-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:57:44.171-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:44.171-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-09T18:57:44.174-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:44.174-0300] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-09T18:57:44.192-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.067 seconds

@@ -1,0 +1,128 @@
+[2024-12-09T18:36:20.736-0300] {processor.py:186} INFO - Started process (PID=114187) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:36:20.737-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:36:20.739-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.739-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:36:20.746-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:36:20.841-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.841-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-12-09T18:36:20.854-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.853-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-12-09T18:36:20.864-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.864-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-12-09T18:36:20.883-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.883-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2024-12-09T18:36:20.898-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.897-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2024-12-09T18:36:20.908-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.907-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2024-12-09T18:36:20.919-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.919-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2024-12-09T18:36:20.919-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.919-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:36:20.928-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.928-0300] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2024-12-09T18:36:20.935-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:20.935-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:36:20.965-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.234 seconds
+[2024-12-09T18:42:57.849-0300] {processor.py:186} INFO - Started process (PID=115999) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:42:57.866-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:42:57.868-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:42:57.868-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:42:57.876-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:42:57.892-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:42:57.892-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:42:57.907-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:42:57.907-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:42:57.932-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.088 seconds
+[2024-12-09T18:43:15.218-0300] {processor.py:186} INFO - Started process (PID=116095) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:43:15.219-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:43:15.222-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:15.221-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:43:15.229-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:43:15.246-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:15.246-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:43:15.262-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:15.261-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:43:15.281-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.068 seconds
+[2024-12-09T18:45:52.665-0300] {processor.py:186} INFO - Started process (PID=116775) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:45:52.666-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:45:52.668-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:52.668-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:45:52.676-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:45:52.692-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:52.692-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:45:52.710-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:52.710-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:45:52.730-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.070 seconds
+[2024-12-09T18:46:28.449-0300] {processor.py:186} INFO - Started process (PID=116939) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:46:28.465-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:46:28.467-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:28.466-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:46:28.474-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:46:28.490-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:28.490-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:46:28.505-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:28.505-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:46:28.524-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.079 seconds
+[2024-12-09T18:49:24.252-0300] {processor.py:186} INFO - Started process (PID=117759) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:49:24.253-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:49:24.255-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.255-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:49:24.263-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:49:24.342-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.341-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-12-09T18:49:24.354-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.354-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-12-09T18:49:24.364-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.364-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-12-09T18:49:24.381-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.380-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2024-12-09T18:49:24.390-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.390-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2024-12-09T18:49:24.400-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.400-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2024-12-09T18:49:24.410-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.410-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2024-12-09T18:49:24.410-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.410-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:49:24.420-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.419-0300] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2024-12-09T18:49:24.427-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:24.427-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:49:24.446-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.199 seconds
+[2024-12-09T18:50:34.022-0300] {processor.py:186} INFO - Started process (PID=118107) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:50:34.029-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:50:34.031-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:34.031-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:50:34.038-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:50:34.051-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:34.051-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:50:34.066-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:34.066-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:50:34.086-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.069 seconds
+[2024-12-09T18:51:08.207-0300] {processor.py:186} INFO - Started process (PID=118272) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:51:08.209-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:51:08.211-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:08.211-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:51:08.217-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:51:08.230-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:08.230-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:51:08.245-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:08.245-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:51:08.265-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.062 seconds
+[2024-12-09T18:51:46.195-0300] {processor.py:186} INFO - Started process (PID=118487) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:51:46.196-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:51:46.199-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:46.198-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:51:46.207-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:51:46.223-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:46.223-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:51:46.239-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:46.239-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:51:46.258-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2024-12-09T18:52:45.546-0300] {processor.py:186} INFO - Started process (PID=118774) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:52:45.562-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:52:45.565-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:45.564-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:52:45.572-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:52:45.587-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:45.586-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:52:45.603-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:45.603-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:52:45.626-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.084 seconds
+[2024-12-09T18:53:46.148-0300] {processor.py:186} INFO - Started process (PID=119075) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:53:46.164-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:53:46.166-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:46.166-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:53:46.173-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:53:46.185-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:46.184-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:53:46.199-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:46.199-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:53:46.220-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2024-12-09T18:54:19.441-0300] {processor.py:186} INFO - Started process (PID=119247) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:54:19.449-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:54:19.451-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:19.451-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:54:19.460-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:54:19.478-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:19.478-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:54:19.496-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:19.496-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:54:19.516-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.080 seconds
+[2024-12-09T18:55:17.481-0300] {processor.py:186} INFO - Started process (PID=119564) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:55:17.482-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:55:17.484-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:17.484-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:55:17.491-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:55:17.503-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:17.503-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:55:17.518-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:17.518-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:55:17.538-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.062 seconds
+[2024-12-09T18:56:20.048-0300] {processor.py:186} INFO - Started process (PID=119899) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:56:20.049-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:56:20.051-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:20.050-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:56:20.059-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:56:20.080-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:20.080-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:56:20.098-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:20.098-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:56:20.119-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2024-12-09T18:57:17.430-0300] {processor.py:186} INFO - Started process (PID=120180) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:57:17.431-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:57:17.433-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:17.433-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:57:17.439-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:57:17.452-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:17.451-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:57:17.466-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:17.466-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:57:17.488-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.062 seconds
+[2024-12-09T18:57:36.926-0300] {processor.py:186} INFO - Started process (PID=120276) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:57:36.928-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-09T18:57:36.930-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:36.930-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:57:36.938-0300] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-09T18:57:36.954-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:36.954-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:57:36.970-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:36.970-0300] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:57:36.990-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.068 seconds

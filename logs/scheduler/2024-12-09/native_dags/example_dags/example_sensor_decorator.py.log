@@ -1,0 +1,128 @@
+[2024-12-09T18:36:21.860-0300] {processor.py:186} INFO - Started process (PID=114190) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:36:21.861-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:36:21.863-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:21.862-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:36:21.869-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:36:21.964-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:21.963-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2024-12-09T18:36:21.976-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:21.975-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2024-12-09T18:36:21.986-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:21.985-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2024-12-09T18:36:22.003-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:22.003-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensor_decorator
+[2024-12-09T18:36:22.013-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:22.013-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensor_decorator
+[2024-12-09T18:36:22.023-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:22.023-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensor_decorator
+[2024-12-09T18:36:22.033-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:22.032-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensor_decorator
+[2024-12-09T18:36:22.033-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:22.033-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:36:22.041-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:22.041-0300] {dag.py:3262} INFO - Creating ORM DAG for example_sensor_decorator
+[2024-12-09T18:36:22.042-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:22.042-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:36:22.069-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.213 seconds
+[2024-12-09T18:42:58.996-0300] {processor.py:186} INFO - Started process (PID=116009) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:42:58.997-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:42:59.000-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:42:58.999-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:42:59.007-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:42:59.024-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:42:59.023-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:42:59.035-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:42:59.034-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:42:59.062-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.070 seconds
+[2024-12-09T18:43:16.364-0300] {processor.py:186} INFO - Started process (PID=116100) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:43:16.365-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:43:16.367-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:16.367-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:43:16.374-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:43:16.391-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:16.390-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:43:16.401-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:16.401-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:43:16.419-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds
+[2024-12-09T18:45:53.821-0300] {processor.py:186} INFO - Started process (PID=116777) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:45:53.822-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:45:53.824-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:53.824-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:45:53.830-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:45:53.845-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:53.845-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:45:53.855-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:53.855-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:45:53.875-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.059 seconds
+[2024-12-09T18:46:29.594-0300] {processor.py:186} INFO - Started process (PID=116947) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:46:29.610-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:46:29.612-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:29.612-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:46:29.618-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:46:29.633-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:29.633-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:46:29.643-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:29.643-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:46:29.663-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.074 seconds
+[2024-12-09T18:49:25.583-0300] {processor.py:186} INFO - Started process (PID=117762) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:49:25.600-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:49:25.601-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.601-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:49:25.607-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:49:25.685-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.685-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2024-12-09T18:49:25.697-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.697-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2024-12-09T18:49:25.707-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.707-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2024-12-09T18:49:25.723-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.723-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_sensor_decorator
+[2024-12-09T18:49:25.733-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.733-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_sensor_decorator
+[2024-12-09T18:49:25.743-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.742-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_sensor_decorator
+[2024-12-09T18:49:25.752-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.752-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_sensor_decorator
+[2024-12-09T18:49:25.753-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.753-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:49:25.761-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.761-0300] {dag.py:3262} INFO - Creating ORM DAG for example_sensor_decorator
+[2024-12-09T18:49:25.762-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:25.762-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:49:25.779-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.201 seconds
+[2024-12-09T18:50:34.482-0300] {processor.py:186} INFO - Started process (PID=118108) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:50:34.483-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:50:34.486-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:34.485-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:50:34.493-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:50:34.505-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:34.505-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:50:34.516-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:34.515-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:50:34.537-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2024-12-09T18:51:08.544-0300] {processor.py:186} INFO - Started process (PID=118273) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:51:08.545-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:51:08.547-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:08.547-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:51:08.553-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:51:08.565-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:08.564-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:51:08.574-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:08.574-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:51:08.594-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.055 seconds
+[2024-12-09T18:51:47.342-0300] {processor.py:186} INFO - Started process (PID=118494) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:51:47.343-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:51:47.345-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:47.345-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:51:47.351-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:51:47.370-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:47.369-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:51:47.382-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:47.382-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:51:47.405-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.067 seconds
+[2024-12-09T18:52:46.695-0300] {processor.py:186} INFO - Started process (PID=118782) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:52:46.711-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:52:46.713-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:46.712-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:52:46.719-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:52:46.730-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:46.730-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:52:46.740-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:46.739-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:52:46.760-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.070 seconds
+[2024-12-09T18:53:47.288-0300] {processor.py:186} INFO - Started process (PID=119078) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:53:47.289-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:53:47.291-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:47.291-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:53:47.300-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:53:47.314-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:47.314-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:53:47.325-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:47.325-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:53:47.347-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.064 seconds
+[2024-12-09T18:54:20.598-0300] {processor.py:186} INFO - Started process (PID=119255) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:54:20.607-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:54:20.608-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:20.608-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:54:20.615-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:54:20.631-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:20.631-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:54:20.641-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:20.641-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:54:20.662-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.069 seconds
+[2024-12-09T18:55:17.838-0300] {processor.py:186} INFO - Started process (PID=119565) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:55:17.840-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:55:17.842-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:17.842-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:55:17.848-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:55:17.859-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:17.859-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:55:17.869-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:17.868-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:55:17.888-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.055 seconds
+[2024-12-09T18:56:21.191-0300] {processor.py:186} INFO - Started process (PID=119901) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:56:21.208-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:56:21.209-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:21.209-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:56:21.215-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:56:21.231-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:21.230-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:56:21.241-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:21.241-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:56:21.262-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.076 seconds
+[2024-12-09T18:57:18.564-0300] {processor.py:186} INFO - Started process (PID=120182) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:57:18.565-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:57:18.567-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:18.567-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:57:18.573-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:57:18.584-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:18.584-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:57:18.593-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:18.593-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:57:18.614-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.055 seconds
+[2024-12-09T18:57:38.074-0300] {processor.py:186} INFO - Started process (PID=120285) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:57:38.076-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-09T18:57:38.078-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:38.077-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:57:38.084-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-09T18:57:38.099-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:38.099-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:57:38.109-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:38.109-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-09T18:57:38.130-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.060 seconds

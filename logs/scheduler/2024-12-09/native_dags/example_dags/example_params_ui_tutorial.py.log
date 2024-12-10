@@ -1,0 +1,79 @@
+[2024-12-09T18:46:54.038-0300] {processor.py:186} INFO - Started process (PID=117071) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:46:54.039-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-09T18:46:54.040-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.040-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:46:54.048-0300] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:46:54.165-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.164-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_params_ui_tutorial
+[2024-12-09T18:46:54.177-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.177-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_params_ui_tutorial
+[2024-12-09T18:46:54.188-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.188-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_params_ui_tutorial
+[2024-12-09T18:46:54.206-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.205-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_params_ui_tutorial
+[2024-12-09T18:46:54.216-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.216-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_params_ui_tutorial
+[2024-12-09T18:46:54.226-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.226-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_params_ui_tutorial
+[2024-12-09T18:46:54.237-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.237-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_params_ui_tutorial
+[2024-12-09T18:46:54.238-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.238-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:46:54.247-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.247-0300] {dag.py:3262} INFO - Creating ORM DAG for example_params_ui_tutorial
+[2024-12-09T18:46:54.248-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:54.248-0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-09T18:46:54.271-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.238 seconds
+[2024-12-09T18:49:55.958-0300] {processor.py:186} INFO - Started process (PID=117927) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:49:55.960-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-09T18:49:55.961-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:55.961-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:49:55.969-0300] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:49:56.085-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.084-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_params_ui_tutorial
+[2024-12-09T18:49:56.097-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.096-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_params_ui_tutorial
+[2024-12-09T18:49:56.107-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.107-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_params_ui_tutorial
+[2024-12-09T18:49:56.125-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.125-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_params_ui_tutorial
+[2024-12-09T18:49:56.137-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.137-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_params_ui_tutorial
+[2024-12-09T18:49:56.148-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.148-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_params_ui_tutorial
+[2024-12-09T18:49:56.160-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.159-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_params_ui_tutorial
+[2024-12-09T18:49:56.160-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.160-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:49:56.171-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.171-0300] {dag.py:3262} INFO - Creating ORM DAG for example_params_ui_tutorial
+[2024-12-09T18:49:56.172-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:56.172-0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-09T18:49:56.192-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.239 seconds
+[2024-12-09T18:51:01.677-0300] {processor.py:186} INFO - Started process (PID=118239) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:51:01.692-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-09T18:51:01.694-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:01.693-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:51:01.701-0300] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:51:01.732-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:01.732-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:51:01.743-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:01.742-0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-09T18:51:01.764-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.093 seconds
+[2024-12-09T18:52:12.955-0300] {processor.py:186} INFO - Started process (PID=118620) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:52:12.956-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-09T18:52:12.958-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:12.958-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:52:12.965-0300] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:52:12.997-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:12.997-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:52:13.007-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:13.006-0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-09T18:52:13.027-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.077 seconds
+[2024-12-09T18:53:13.662-0300] {processor.py:186} INFO - Started process (PID=118917) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:53:13.663-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-09T18:53:13.665-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:13.665-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:53:13.674-0300] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:53:13.708-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:13.708-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:53:13.719-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:13.719-0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-09T18:53:13.740-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.084 seconds
+[2024-12-09T18:54:46.015-0300] {processor.py:186} INFO - Started process (PID=119404) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:54:46.016-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-09T18:54:46.018-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:46.018-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:54:46.025-0300] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:54:46.059-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:46.058-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:54:46.068-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:46.068-0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-09T18:54:46.087-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.077 seconds
+[2024-12-09T18:55:46.836-0300] {processor.py:186} INFO - Started process (PID=119701) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:55:46.851-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-09T18:55:46.853-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:46.853-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:55:46.861-0300] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:55:46.892-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:46.891-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:55:46.900-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:46.900-0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-09T18:55:46.922-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.091 seconds
+[2024-12-09T18:56:46.464-0300] {processor.py:186} INFO - Started process (PID=120026) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:56:46.465-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-09T18:56:46.467-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:46.467-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:56:46.474-0300] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:56:46.506-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:46.506-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:56:46.515-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:46.515-0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-09T18:56:46.535-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.076 seconds
+[2024-12-09T18:58:02.281-0300] {processor.py:186} INFO - Started process (PID=120432) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:58:02.282-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2024-12-09T18:58:02.284-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:02.284-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:58:02.291-0300] {processor.py:925} INFO - DAG(s) 'example_params_ui_tutorial' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2024-12-09T18:58:02.323-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:02.322-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:58:02.332-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:02.331-0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2024-12-09T18:58:02.350-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.074 seconds

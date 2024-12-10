@@ -1,0 +1,268 @@
+[2024-12-09T18:36:16.143-0300] {processor.py:186} INFO - Started process (PID=114169) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:36:16.144-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:36:16.147-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:16.147-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:36:16.152-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:16.151-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 12, in <module>
+    from scripts.extract import save_to_bronze
+ModuleNotFoundError: No module named 'scripts'
+[2024-12-09T18:36:16.152-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:36:16.174-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.038 seconds
+[2024-12-09T18:38:53.039-0300] {processor.py:186} INFO - Started process (PID=114867) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:38:53.040-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:38:53.043-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:38:53.042-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:38:53.047-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:38:53.046-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 12, in <module>
+    from scripts.extract import save_to_bronze
+ModuleNotFoundError: No module named 'scripts'
+[2024-12-09T18:38:53.048-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:38:53.067-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.035 seconds
+[2024-12-09T18:42:54.405-0300] {processor.py:186} INFO - Started process (PID=115981) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:42:54.406-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:42:54.408-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:42:54.408-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:42:54.411-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:42:54.411-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 12, in <module>
+    from scripts.extract import save_to_bronze
+ModuleNotFoundError: No module named 'scripts'
+[2024-12-09T18:42:54.412-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:42:54.429-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.029 seconds
+[2024-12-09T18:43:11.785-0300] {processor.py:186} INFO - Started process (PID=116076) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:43:11.787-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:43:11.788-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:11.788-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:43:11.791-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:11.791-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 12, in <module>
+    from scripts.extract import save_to_bronze
+ModuleNotFoundError: No module named 'scripts'
+[2024-12-09T18:43:11.792-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:43:11.808-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.027 seconds
+[2024-12-09T18:45:48.043-0300] {processor.py:186} INFO - Started process (PID=116757) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:45:48.044-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:45:48.046-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:48.046-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:45:48.051-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:45:48.050-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 14, in <module>
+    from scripts.extract import save_to_bronze
+ImportError: cannot import name 'save_to_bronze' from 'scripts.extract' (/home/alefpa/codigos/breweriesDB/scripts/extract.py)
+[2024-12-09T18:45:48.051-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:45:48.068-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.030 seconds
+[2024-12-09T18:46:25.004-0300] {processor.py:186} INFO - Started process (PID=116926) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:46:25.005-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:46:25.007-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:25.007-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:46:25.011-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:25.010-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 14, in <module>
+    from scripts.extract import save_to_bronze
+ImportError: cannot import name 'save_to_bronze' from 'scripts.extract' (/home/alefpa/codigos/breweriesDB/scripts/extract.py)
+[2024-12-09T18:46:25.011-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:46:25.028-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.029 seconds
+[2024-12-09T18:49:20.616-0300] {processor.py:186} INFO - Started process (PID=117740) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:49:20.617-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:49:20.619-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:20.618-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:49:20.622-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:20.621-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 14, in <module>
+    from scripts.extract import save_to_bronze
+ImportError: cannot import name 'save_to_bronze' from 'scripts.extract' (/home/alefpa/codigos/breweriesDB/scripts/extract.py)
+[2024-12-09T18:49:20.622-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:49:20.638-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.028 seconds
+[2024-12-09T18:50:31.549-0300] {processor.py:186} INFO - Started process (PID=118096) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:50:31.550-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:50:31.552-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:31.552-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:50:31.556-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:31.555-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 14, in <module>
+    from scripts.extract import save_to_bronze
+ImportError: cannot import name 'save_to_bronze' from 'scripts.extract' (/home/alefpa/codigos/breweriesDB/scripts/extract.py)
+[2024-12-09T18:50:31.556-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:50:31.573-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.029 seconds
+[2024-12-09T18:51:05.781-0300] {processor.py:186} INFO - Started process (PID=118260) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:51:05.783-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:51:05.785-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:05.784-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:51:05.789-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:05.788-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 14, in <module>
+    from scripts.extract import save_to_bronze
+ImportError: cannot import name 'save_to_bronze' from 'scripts.extract' (/home/alefpa/codigos/breweriesDB/scripts/extract.py)
+[2024-12-09T18:51:05.789-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:51:05.806-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.029 seconds
+[2024-12-09T18:51:42.753-0300] {processor.py:186} INFO - Started process (PID=118451) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:51:42.754-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:51:42.756-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:42.756-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:51:42.761-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:42.760-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 14, in <module>
+    from scripts.extract import save_to_bronze
+  File "/home/alefpa/codigos/breweriesDB/scripts/extract.py", line 11, in <module>
+    from extract import extract_data  # Corrigido para importar a função correta
+  File "/home/alefpa/codigos/breweriesDB/scripts/extract.py", line 11, in <module>
+    from extract import extract_data  # Corrigido para importar a função correta
+ImportError: cannot import name 'extract_data' from partially initialized module 'extract' (most likely due to a circular import) (/home/alefpa/codigos/breweriesDB/scripts/extract.py)
+[2024-12-09T18:51:42.761-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:51:42.778-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.030 seconds
+[2024-12-09T18:52:42.870-0300] {processor.py:186} INFO - Started process (PID=118762) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:52:42.885-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:52:42.887-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:42.887-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:52:42.891-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:42.890-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 14, in <module>
+    from scripts.extract import save_to_bronze
+  File "/home/alefpa/codigos/breweriesDB/scripts/extract.py", line 11, in <module>
+    from extract import extract_data  # Corrigido para importar a função correta
+  File "/home/alefpa/codigos/breweriesDB/scripts/extract.py", line 11, in <module>
+    from extract import extract_data  # Corrigido para importar a função correta
+ImportError: cannot import name 'extract_data' from partially initialized module 'extract' (most likely due to a circular import) (/home/alefpa/codigos/breweriesDB/scripts/extract.py)
+[2024-12-09T18:52:42.892-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:52:42.909-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.044 seconds
+[2024-12-09T18:53:13.078-0300] {processor.py:186} INFO - Started process (PID=118910) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:53:13.079-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:53:13.081-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:13.081-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:53:13.085-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:13.084-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 14, in <module>
+    from scripts.extract import save_to_bronze
+  File "/home/alefpa/codigos/breweriesDB/scripts/extract.py", line 11, in <module>
+    from extract import extract_data  # Corrigido para importar a função correta
+  File "/home/alefpa/codigos/breweriesDB/scripts/extract.py", line 11, in <module>
+    from extract import extract_data  # Corrigido para importar a função correta
+ImportError: cannot import name 'extract_data' from partially initialized module 'extract' (most likely due to a circular import) (/home/alefpa/codigos/breweriesDB/scripts/extract.py)
+[2024-12-09T18:53:13.086-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:53:13.104-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.032 seconds
+[2024-12-09T18:53:43.288-0300] {processor.py:186} INFO - Started process (PID=119057) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:53:43.289-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:53:43.291-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:43.291-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:53:43.295-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:43.294-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 14, in <module>
+    from scripts.extract import save_to_bronze
+  File "/home/alefpa/codigos/breweriesDB/scripts/extract.py", line 11, in <module>
+    from extract import extract_data  # Corrigido para importar a função correta
+  File "/home/alefpa/codigos/breweriesDB/scripts/extract.py", line 11, in <module>
+    from extract import extract_data  # Corrigido para importar a função correta
+ImportError: cannot import name 'extract_data' from partially initialized module 'extract' (most likely due to a circular import) (/home/alefpa/codigos/breweriesDB/scripts/extract.py)
+[2024-12-09T18:53:43.295-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:53:43.313-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.029 seconds
+[2024-12-09T18:54:15.998-0300] {processor.py:186} INFO - Started process (PID=119234) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:54:15.999-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:54:16.001-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:16.001-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:54:16.005-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:16.004-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 12, in <module>
+    from transform import transform_brewery_data
+ImportError: cannot import name 'transform_brewery_data' from 'transform' (/home/alefpa/codigos/breweriesDB/scripts/transform.py)
+[2024-12-09T18:54:16.005-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:54:16.024-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.031 seconds
+[2024-12-09T18:55:14.823-0300] {processor.py:186} INFO - Started process (PID=119546) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:55:14.824-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:55:14.826-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:14.825-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:55:14.829-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:14.828-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 12, in <module>
+    from scripts.transform import transform_brewery_data  # Corrigido para incluir o prefixo 'scripts'
+ModuleNotFoundError: No module named 'scripts'
+[2024-12-09T18:55:14.829-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:55:14.847-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.029 seconds
+[2024-12-09T18:55:45.101-0300] {processor.py:186} INFO - Started process (PID=119696) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:55:45.102-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:55:45.104-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:45.104-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:55:45.108-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:45.107-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 12, in <module>
+    from scripts.transform import transform_brewery_data  # Corrigido para incluir o prefixo 'scripts'
+ModuleNotFoundError: No module named 'scripts'
+[2024-12-09T18:55:45.108-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:55:45.125-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.029 seconds
+[2024-12-09T18:56:16.503-0300] {processor.py:186} INFO - Started process (PID=119878) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:56:16.504-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:56:16.506-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:16.506-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:56:16.509-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:16.508-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 11, in <module>
+    from scripts.extract import extract_data
+ModuleNotFoundError: No module named 'scripts'
+[2024-12-09T18:56:16.510-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:56:16.525-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.027 seconds
+[2024-12-09T18:57:14.584-0300] {processor.py:186} INFO - Started process (PID=120162) to work on /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:57:14.601-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py for tasks to queue
+[2024-12-09T18:57:14.603-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:14.603-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:57:14.606-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:14.605-0300] {dagbag.py:387} ERROR - Failed to import: /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+Traceback (most recent call last):
+  File "/home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py", line 11, in <module>
+    from scripts.extract import extract_data
+ModuleNotFoundError: No module named 'scripts'
+[2024-12-09T18:57:14.606-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py
+[2024-12-09T18:57:14.623-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/dags/brewery_pipeline.py took 0.043 seconds

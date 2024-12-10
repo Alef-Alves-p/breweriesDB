@@ -1,0 +1,57 @@
+[2024-12-09T18:50:17.146-0300] {processor.py:186} INFO - Started process (PID=118036) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:50:17.147-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-09T18:50:17.150-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.149-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:50:17.158-0300] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:50:17.327-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.326-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2024-12-09T18:50:17.349-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.349-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2024-12-09T18:50:17.365-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.364-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2024-12-09T18:50:17.388-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.388-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_branch_labels
+[2024-12-09T18:50:17.401-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.401-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_branch_labels
+[2024-12-09T18:50:17.415-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.414-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_branch_labels
+[2024-12-09T18:50:17.428-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.428-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_branch_labels
+[2024-12-09T18:50:17.429-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.428-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:50:17.443-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.442-0300] {dag.py:3262} INFO - Creating ORM DAG for example_branch_labels
+[2024-12-09T18:50:17.453-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:17.453-0300] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:50:17.478-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.338 seconds
+[2024-12-09T18:51:24.158-0300] {processor.py:186} INFO - Started process (PID=118356) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:51:24.160-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-09T18:51:24.162-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:24.161-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:51:24.169-0300] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:51:24.181-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:24.181-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:51:24.197-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:24.197-0300] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:51:24.216-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.062 seconds
+[2024-12-09T18:52:31.235-0300] {processor.py:186} INFO - Started process (PID=118711) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:52:31.236-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-09T18:52:31.238-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:31.238-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:52:31.245-0300] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:52:31.259-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:31.259-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:52:31.276-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:31.275-0300] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:52:31.300-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.070 seconds
+[2024-12-09T18:53:31.459-0300] {processor.py:186} INFO - Started process (PID=119007) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:53:31.461-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-09T18:53:31.464-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:31.463-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:53:31.472-0300] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:53:31.485-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:31.485-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:53:31.502-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:31.502-0300] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:53:31.524-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.069 seconds
+[2024-12-09T18:55:04.426-0300] {processor.py:186} INFO - Started process (PID=119492) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:55:04.427-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-09T18:55:04.430-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:04.429-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:55:04.437-0300] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:55:04.450-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:04.449-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:55:04.465-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:04.465-0300] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:55:04.485-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.063 seconds
+[2024-12-09T18:56:05.171-0300] {processor.py:186} INFO - Started process (PID=119794) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:56:05.186-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-09T18:56:05.188-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:05.188-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:56:05.196-0300] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:56:05.208-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:05.208-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:56:05.225-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:05.225-0300] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:56:05.244-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.079 seconds
+[2024-12-09T18:57:04.024-0300] {processor.py:186} INFO - Started process (PID=120110) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:57:04.041-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-09T18:57:04.043-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:04.043-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:57:04.050-0300] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-09T18:57:04.064-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:04.063-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:57:04.083-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:04.083-0300] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-12-08 00:00:00+00:00, run_after=2024-12-09 00:00:00+00:00
+[2024-12-09T18:57:04.103-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.084 seconds

@@ -1,0 +1,128 @@
+[2024-12-09T18:46:58.185-0300] {processor.py:186} INFO - Started process (PID=117082) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:46:58.186-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-09T18:46:58.188-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.187-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:46:58.206-0300] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:46:58.288-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.288-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2024-12-09T18:46:58.301-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.300-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2024-12-09T18:46:58.311-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.311-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2024-12-09T18:46:58.329-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.329-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_subdag_operator
+[2024-12-09T18:46:58.340-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.340-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_subdag_operator
+[2024-12-09T18:46:58.351-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.350-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_subdag_operator
+[2024-12-09T18:46:58.361-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.360-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_subdag_operator
+[2024-12-09T18:46:58.361-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.361-0300] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-09T18:46:58.370-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.370-0300] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2024-12-09T18:46:58.371-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.371-0300] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2024-12-09T18:46:58.371-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.371-0300] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator
+[2024-12-09T18:46:58.380-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.379-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-09T18:46:58.380-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.380-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:46:58.381-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.381-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:46:58.387-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.387-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:46:58.391-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.391-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:46:58.393-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:58.393-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:46:58.412-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.232 seconds
+[2024-12-09T18:49:59.974-0300] {processor.py:186} INFO - Started process (PID=117947) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:49:59.975-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-09T18:49:59.977-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:59.977-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:49:59.994-0300] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:50:00.074-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.073-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2024-12-09T18:50:00.086-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.085-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2024-12-09T18:50:00.096-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.096-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2024-12-09T18:50:00.113-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.112-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_subdag_operator
+[2024-12-09T18:50:00.122-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.122-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_subdag_operator
+[2024-12-09T18:50:00.132-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.132-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_subdag_operator
+[2024-12-09T18:50:00.142-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.142-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_subdag_operator
+[2024-12-09T18:50:00.142-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.142-0300] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-09T18:50:00.151-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.151-0300] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2024-12-09T18:50:00.152-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.151-0300] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2024-12-09T18:50:00.152-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.152-0300] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator
+[2024-12-09T18:50:00.158-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.158-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-09T18:50:00.159-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.158-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:50:00.159-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.159-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:50:00.165-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.165-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:50:00.169-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.169-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:50:00.171-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:00.171-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:50:00.187-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.218 seconds
+[2024-12-09T18:51:04.547-0300] {processor.py:186} INFO - Started process (PID=118251) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:51:04.554-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-09T18:51:04.556-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:04.555-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:51:04.574-0300] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:51:04.588-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:04.588-0300] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-09T18:51:04.607-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:04.606-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-09T18:51:04.610-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:04.610-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:51:04.612-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:04.611-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:51:04.617-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:04.617-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:51:04.622-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:04.622-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:51:04.623-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:51:04.623-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:51:04.641-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.101 seconds
+[2024-12-09T18:52:15.823-0300] {processor.py:186} INFO - Started process (PID=118638) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:52:15.824-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-09T18:52:15.827-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:15.826-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:52:15.846-0300] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:52:15.859-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:15.859-0300] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-09T18:52:15.877-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:15.876-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-09T18:52:15.879-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:15.879-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:52:15.880-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:15.880-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:52:15.885-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:15.885-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:52:15.889-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:15.888-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:52:15.889-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:15.889-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:52:15.910-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.094 seconds
+[2024-12-09T18:53:16.806-0300] {processor.py:186} INFO - Started process (PID=118933) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:53:16.808-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-09T18:53:16.810-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:16.810-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:53:16.826-0300] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:53:16.838-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:16.837-0300] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-09T18:53:16.852-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:16.852-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-09T18:53:16.855-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:16.855-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:53:16.856-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:16.856-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:53:16.860-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:16.860-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:53:16.864-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:16.864-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:53:16.865-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:16.864-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:53:16.880-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.079 seconds
+[2024-12-09T18:54:47.819-0300] {processor.py:186} INFO - Started process (PID=119416) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:54:47.836-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-09T18:54:47.838-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:47.838-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:54:47.856-0300] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:54:47.870-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:47.869-0300] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-09T18:54:47.885-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:47.885-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-09T18:54:47.887-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:47.887-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:54:47.888-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:47.888-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:54:47.893-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:47.893-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:54:47.897-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:47.897-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:54:47.897-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:47.897-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:54:47.912-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.098 seconds
+[2024-12-09T18:55:49.530-0300] {processor.py:186} INFO - Started process (PID=119719) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:55:49.532-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-09T18:55:49.533-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:49.533-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:55:49.549-0300] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:55:49.560-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:49.560-0300] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-09T18:55:49.575-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:49.574-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-09T18:55:49.577-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:49.577-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:55:49.578-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:49.578-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:55:49.583-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:49.582-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:55:49.586-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:49.586-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:55:49.586-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:49.586-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:55:49.603-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.076 seconds
+[2024-12-09T18:56:48.192-0300] {processor.py:186} INFO - Started process (PID=120038) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:56:48.193-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-09T18:56:48.195-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:48.194-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:56:48.212-0300] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:56:48.225-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:48.225-0300] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-09T18:56:48.241-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:48.241-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-09T18:56:48.244-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:48.244-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:56:48.245-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:48.245-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:56:48.250-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:48.250-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:56:48.254-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:48.254-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:56:48.254-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:48.254-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:56:48.269-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.082 seconds
+[2024-12-09T18:58:04.862-0300] {processor.py:186} INFO - Started process (PID=120446) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:58:04.863-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-09T18:58:04.865-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:04.865-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:58:04.882-0300] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-09T18:58:04.895-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:04.895-0300] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-09T18:58:04.910-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:04.910-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-09T18:58:04.913-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:04.913-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:58:04.915-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:04.914-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:58:04.920-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:04.920-0300] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-09T18:58:04.924-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:04.923-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-09T18:58:04.924-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:58:04.924-0300] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-09T18:58:04.938-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.081 seconds

@@ -1,0 +1,112 @@
+[2024-12-09T18:36:38.544-0300] {processor.py:186} INFO - Started process (PID=114285) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:36:38.545-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:36:38.547-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.547-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:36:38.579-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.578-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:36:38.581-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:36:38.682-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.681-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2024-12-09T18:36:38.694-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.694-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2024-12-09T18:36:38.705-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.705-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2024-12-09T18:36:38.723-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.722-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_python_decorator
+[2024-12-09T18:36:38.733-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.732-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_python_decorator
+[2024-12-09T18:36:38.745-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.745-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_python_decorator
+[2024-12-09T18:36:38.755-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.755-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_python_decorator
+[2024-12-09T18:36:38.756-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.756-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:36:38.764-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.764-0300] {dag.py:3262} INFO - Creating ORM DAG for example_python_decorator
+[2024-12-09T18:36:38.765-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:36:38.765-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:36:38.794-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.256 seconds
+[2024-12-09T18:43:29.182-0300] {processor.py:186} INFO - Started process (PID=116167) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:43:29.184-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:43:29.186-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:29.185-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:43:29.210-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:29.210-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:43:29.213-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:43:29.231-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:29.231-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:43:29.240-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:43:29.240-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:43:29.267-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.089 seconds
+[2024-12-09T18:46:42.399-0300] {processor.py:186} INFO - Started process (PID=117010) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:46:42.415-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:46:42.417-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:42.417-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:46:42.448-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:42.448-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:46:42.450-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:46:42.467-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:42.467-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:46:42.476-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:46:42.476-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:46:42.496-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.101 seconds
+[2024-12-09T18:49:40.920-0300] {processor.py:186} INFO - Started process (PID=117863) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:49:40.932-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:49:40.935-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:40.934-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:49:40.969-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:40.969-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:49:40.971-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:49:41.074-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.073-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2024-12-09T18:49:41.089-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.089-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2024-12-09T18:49:41.102-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.102-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2024-12-09T18:49:41.121-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.121-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_python_decorator
+[2024-12-09T18:49:41.133-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.132-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_python_decorator
+[2024-12-09T18:49:41.144-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.143-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_python_decorator
+[2024-12-09T18:49:41.156-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.154-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_python_decorator
+[2024-12-09T18:49:41.157-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.156-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:49:41.172-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.172-0300] {dag.py:3262} INFO - Creating ORM DAG for example_python_decorator
+[2024-12-09T18:49:41.173-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:49:41.173-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:49:41.200-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.286 seconds
+[2024-12-09T18:50:49.175-0300] {processor.py:186} INFO - Started process (PID=118186) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:50:49.177-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:50:49.179-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:49.179-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:50:49.209-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:49.209-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:50:49.211-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:50:49.224-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:49.224-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:50:49.233-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:50:49.233-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:50:49.256-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.085 seconds
+[2024-12-09T18:52:00.397-0300] {processor.py:186} INFO - Started process (PID=118558) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:52:00.399-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:52:00.401-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:00.400-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:52:00.427-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:00.427-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:52:00.429-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:52:00.447-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:00.447-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:52:00.456-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:00.456-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:52:00.483-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.090 seconds
+[2024-12-09T18:52:59.529-0300] {processor.py:186} INFO - Started process (PID=118849) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:52:59.531-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:52:59.533-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:59.532-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:52:59.560-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:59.560-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:52:59.562-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:52:59.574-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:59.574-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:52:59.583-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:52:59.583-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:52:59.604-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.079 seconds
+[2024-12-09T18:53:59.048-0300] {processor.py:186} INFO - Started process (PID=119143) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:53:59.049-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:53:59.051-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:59.051-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:53:59.083-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:59.083-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:53:59.085-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:53:59.098-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:59.097-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:53:59.107-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:53:59.107-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:53:59.128-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.085 seconds
+[2024-12-09T18:54:33.616-0300] {processor.py:186} INFO - Started process (PID=119344) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:54:33.632-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:54:33.634-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:33.634-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:54:33.662-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:33.662-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:54:33.664-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:54:33.681-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:33.681-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:54:33.690-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:54:33.690-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:54:33.712-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.101 seconds
+[2024-12-09T18:55:33.709-0300] {processor.py:186} INFO - Started process (PID=119638) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:55:33.726-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:55:33.728-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:33.728-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:55:33.756-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:33.756-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:55:33.758-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:55:33.770-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:33.770-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:55:33.779-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:55:33.779-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:55:33.798-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.094 seconds
+[2024-12-09T18:56:35.063-0300] {processor.py:186} INFO - Started process (PID=119972) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:56:35.064-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:56:35.066-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:35.066-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:56:35.096-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:35.096-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:56:35.098-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:56:35.119-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:35.119-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:56:35.128-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:56:35.128-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:56:35.149-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.091 seconds
+[2024-12-09T18:57:50.866-0300] {processor.py:186} INFO - Started process (PID=120371) to work on /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:57:50.867-0300] {processor.py:914} INFO - Processing file /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-09T18:57:50.869-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:50.869-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:57:50.900-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:50.900-0300] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-09T18:57:50.902-0300] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-09T18:57:50.920-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:50.920-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T18:57:50.929-0300] {logging_mixin.py:190} INFO - [2024-12-09T18:57:50.929-0300] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-09T18:57:50.953-0300] {processor.py:208} INFO - Processing /home/alefpa/codigos/breweriesDB/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.091 seconds

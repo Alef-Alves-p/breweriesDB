@@ -192,6 +192,8 @@ t1 >> t2 >> t3
 
 ### Testes Automatizados
 Para garantir a qualidade do pipeline, testes automatizados são realizados com pytest. Esses testes validam as diferentes etapas do pipeline.
+ - pytest test_verify_data.py # para rodar todos os arquivos de teste dentro da pasta test/
+
 
 Testes de Validação de Dados
 A validação verifica se os dados extraídos, transformados e carregados estão corretos. O arquivo tests/verify_data.py contém funções que garantem que os dados estejam no formato esperado em cada camada.

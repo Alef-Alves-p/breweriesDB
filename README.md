@@ -88,6 +88,7 @@ airflow db init
 ### Passo 5: Criar um usuário no Airflow
 Caso ainda não tenha criado um usuário nmo Airflow, execute o seguinte comando para criar um usuário administrador:
 
+<<<<<<< HEAD
 airflow users create
 --username admin
 --firstname Admin
@@ -95,6 +96,16 @@ airflow users create
 --email admin@example.com
 --role Admin
 --password admin
+=======
+airflow users create \
+  --username admin \
+  --firstname Admin \
+  --lastname User \
+  --email admin@example.com \
+  --role Admin \
+  --password admin
+
+>>>>>>> origin/master
 
 
 ### Passo 6: Iniciar o Airflow
@@ -227,6 +238,8 @@ t1 >> t2 >> t3
 
 ### Testes Automatizados
 Para garantir a qualidade do pipeline, testes automatizados são realizados com pytest. Esses testes validam as diferentes etapas do pipeline.
+ - pytest test_verify_data.py # para rodar todos os arquivos de teste dentro da pasta test/
+
 
 Testes de Validação de Dados
 A validação verifica se os dados extraídos, transformados e carregados estão corretos. O arquivo tests/verify_data.py contém funções que garantem que os dados estejam no formato esperado em cada camada.

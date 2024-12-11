@@ -38,7 +38,7 @@ def example_bash_decorator():
     # [START howto_decorator_bash]
     @task.bash
     def run_after_loop() -> str:
-        return "echo https://airflow.apache.org/"
+        return "echo 1"
 
     run_this = run_after_loop()
     # [END howto_decorator_bash]
@@ -99,10 +99,9 @@ def example_bash_decorator():
 
     @task.bash
     def get_file_stats() -> str:
-        from shlex import join
-
         files = _get_files_in_cwd()
-        cmd = join(["stat", *files])
+        cmd = "stat "
+        cmd += " ".join(files)
 
         return cmd
 

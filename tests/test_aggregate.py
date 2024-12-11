@@ -2,7 +2,7 @@ import pandas as pd
 import pytest
 from pathlib import Path
 from tempfile import TemporaryDirectory
-from scripts.load import load_aggregated_data  # Ajuste o import conforme necessário
+
 
 @pytest.fixture
 def sample_data():

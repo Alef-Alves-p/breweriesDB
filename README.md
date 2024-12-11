@@ -10,7 +10,7 @@ A estrutura de diretórios do projeto é a seguinte:
 
 breweriesDB/
 ├── dags/                      # Arquivos do pipeline Airflow
-│   ├── brewery_pipeline.py            # Definição do DAG no Airflow
+│   ├── brewery_pipeline.py     # Definição do DAG no Airflow
 ├── data/                      # Data Lake local
 │   ├── bronze/                # Camada bronze: dados brutos
 │   ├── silver/                # Camada prata: dados transformados
@@ -21,8 +21,8 @@ breweriesDB/
 ├── scripts/                   # Scripts auxiliares
 │   ├── extract.py             # Código para consumir a API
 │   ├── transform.py           # Código para transformação dos dados
-│   ├── load.py                # Código para salvar os dados
-│   ├── test_functions.py      # Casos de teste
+│   ├── load.py                #Código para salvar os dados
+│   ├── test_functions.py      #Caso de test
 ├──tests
 |   ├── test_aggregate.py
 │   ├── test_verify_data.py
@@ -88,13 +88,13 @@ airflow db init
 ### Passo 5: Criar um usuário no Airflow
 Caso ainda não tenha criado um usuário nmo Airflow, execute o seguinte comando para criar um usuário administrador:
 
-airflow users create \
-    --username admin \
-    --firstname Admin \
-    --lastname User \
-    --email admin@example.com \
-    --role Admin \
-    --password admin
+airflow users create
+--username admin
+--firstname Admin
+--lastname User
+--email admin@example.com
+--role Admin
+--password admin
 
 
 ### Passo 6: Iniciar o Airflow
@@ -110,15 +110,50 @@ acesse o painel do Airflow em http://localhost:8080 com o usuário e senha criad
 Camadas de Dados
 O pipeline é estruturado em três camadas:
 
-1 - Camada Bronze (Raw Data):
-    Dados brutos extraídos de uma fonte externa e armazenados no formato Parquet.
+1 - Camada Bronze (Raw Data) script extract.py:
+    Função principal: Extrair dados brutos (camada bronze) de uma fonte externa e salvá-los no formato Parquet.
 
-2 - Camada Silver (Transformação):
-    Dados transformados (limpeza, formatação, etc.) são armazenados para análises preliminares.
+    O que faz:
+    Obtém dados brutos, como JSON ou CSV, de uma API ou outra fonte.
+    Converte esses dados para o formato Parquet para armazenamento eficiente.
+    Salva os dados na camada bronze do pipeline.
+    Fluxo geral:
 
-3 - Camada Gold (Agregado):
-    Dados finais, agregados e preparados para consumo final, prontos para análises e relatórios.
+    Lê os dados de uma fonte, como uma API ou arquivo.
+    Converte os dados para um formato tabular (como um DataFrame).
+    Salva os dados na pasta data/bronze como um arquivo .parquet.
 
+2 - Camada Silver (Transformação) script transfrom.py:
+    Função principal: Processar e limpar os dados da camada bronze, transformando-os para a camada prata.
+
+    O que faz:
+    Lê os dados da camada bronze (arquivo .parquet).
+    Realiza transformações, como:
+    Remoção de duplicatas.
+    Exclusão de registros inválidos ou incompletos.
+    Padronização de dados (como converter nomes para maiúsculas).
+    Agrupa os dados por estado e particiona-os.
+    Salva os dados transformados na camada prata (data/silver).
+    Fluxo geral:
+
+    Lê um arquivo Parquet da camada bronze.
+    Limpa e transforma os dados (por exemplo, padroniza texto, remove duplicatas e valores nulos).
+    Cria sub-arquivos baseados na coluna de agrupamento (como state).
+    Salva os dados limpos e organizados na pasta data/silver.
+
+3 - Camada Gold (Agregado) script load.py:
+    Função principal: Agregar os dados transformados (camada prata) e criar um arquivo resumido na camada ouro.
+
+    O que faz:
+    Lê os dados da camada prata (arquivos .parquet).
+    Realiza agregações, como:
+    Contar o número de cervejarias por tipo e estado.
+    Salva o resultado em um formato utilizável (como CSV ou Parquet) na camada ouro.
+    Fluxo geral:
+
+    Lê arquivos Parquet da camada prata.
+    Realiza operações de agregação e cálculos resumidos.
+    Salva os resultados na pasta data/gold como aggregated_breweries.parquet ou .csv
 
 ### DAG do Airflow
 A DAG (Directed Acyclic Graph) principal do Airflow é chamada brewery_pipeline e é composta por três tarefas principais:

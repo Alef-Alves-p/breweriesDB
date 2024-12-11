@@ -53,7 +53,6 @@ class SumItOperator(BaseOperator):
 
 with DAG(
     dag_id="example_dynamic_task_mapping_with_no_taskflow_operators",
-    schedule=None,
     start_date=datetime(2022, 3, 4),
     catchup=False,
 ):

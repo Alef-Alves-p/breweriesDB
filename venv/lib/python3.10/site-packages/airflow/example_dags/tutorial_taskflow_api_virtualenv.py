@@ -38,7 +38,7 @@ else:
         """
 
         @task.virtualenv(
-            serializer="dill",  # Use `dill` for advanced serialization.
+            use_dill=True,
             system_site_packages=False,
             requirements=["funcsigs"],
         )

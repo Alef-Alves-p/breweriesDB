@@ -89,12 +89,13 @@ airflow db init
 Caso ainda não tenha criado um usuário nmo Airflow, execute o seguinte comando para criar um usuário administrador:
 
 airflow users create \
-    --username admin \
-    --firstname Admin \
-    --lastname User \
-    --email admin@example.com \
-    --role Admin \
-    --password admin
+  --username admin \
+  --firstname Admin \
+  --lastname User \
+  --email admin@example.com \
+  --role Admin \
+  --password admin
+
 
 
 ### Passo 6: Iniciar o Airflow
